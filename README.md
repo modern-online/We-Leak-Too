@@ -23,7 +23,7 @@ All the above are standalone installations.
 The script has to be launched within activated Mycroft's virtual environment (refer to Mycroft documentation on mycroft-message-bus) in order to properly communicate with the framework. 
 
 Other required external Python modules: 
-html2text (html parser), watchdog (system monitor) 
+[html2text](https://pypi.org/project/html2text/) (html parser), [watchdog](https://pypi.org/project/watchdog/) (system monitor) 
 
 ## pixel_ring
 
