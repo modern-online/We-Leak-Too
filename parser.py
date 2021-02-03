@@ -28,6 +28,9 @@ from watchdog.events import FileSystemEventHandler
 folder_paths = ["/tmp/mycroft/cache/tts/Mimic", "/home/caclab/Desktop/sniff/packets"]
 # folder_path = "/home/caclab/Desktop/sniff/packets"
 
+# Insert server to connect to
+api="XXXXXXXX"
+
 # connect to arduino serial 
 arduino = serial.Serial('/dev/ttyACM0', 115200, timeout=.1) # serial comms with LED ring
 sleep(1)
@@ -50,7 +53,7 @@ class ThreadyThread:
         self.running = False    
 
     # Upload file to server
-    def send_to_server(self, filepath, api="https://weleaktoo.com/api/v1/links"):
+    def send_to_server(self, filepath, api=api):
                 
         with open(filepath, "rb") as upload:
             try:
