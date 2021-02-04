@@ -5,7 +5,8 @@
 # Takes files sniffed from the internetz
 # leaves images and .html, dumps the rest 
 # gets voice-assistant to say latest html file's content
-# gets some lights to flash
+# converts voice-assistant's utterances to mp3 then sends them the server too
+# gets some lights to flash on the object
 # cleans up
 
 import os 
