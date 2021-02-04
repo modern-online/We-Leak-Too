@@ -1,8 +1,10 @@
+## We Leak Too
+
 A voice-assistant with an integrated packet sniffer.
 
 ![weleaktoo](https://github.com/modern-online/We-Leak-Too/blob/main/images/DSCF6515-3-no-shadoww2.jpg)
 
-Made in collaboration with Leon Eckert, We Leak Too is an art project, made for the [WeLink:Sideways](http://we-link.chronusartcenter.org/sideways/) exhibition. Every time a packet goes through its local network, the device will announce it being logged. If a plain-text packet gets intercepted, its contents are read aloud. The device otherwise acts as a regular voice assistant, serving commands, telling the wether, making lame jokes. 
+Made in collaboration with Leon Eckert, We Leak Too is an art project made for the [WeLink:Sideways](http://we-link.chronusartcenter.org/sideways/) exhibition. Every time a packet goes through its local network, the device will announce it being logged. If a plain-text packet gets intercepted, its contents are read aloud. The device otherwise acts as a regular voice assistant, serving commands, telling the wether, making lame jokes. 
 
 Project's real-time [website](https://weleaktoo.com/),
 and more about the [project](https://vjnks.com/works/we-leak-too-43).
