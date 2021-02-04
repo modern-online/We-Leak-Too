@@ -30,3 +30,5 @@ Other required external Python modules:
 ## pixel_ring
 
 Scripts within the pixel_ring folder are mainly used to opperate an LED Pixel Ring by Adafruit as part of the voice assistant's physical design. 
+
+![website](https://github.com/modern-online/We-Leak-Too/blob/main/images/Screen%20Shot%202020-11-20%20at%2022.47.22w.jpg)
